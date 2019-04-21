@@ -1,16 +1,16 @@
-package revolut.exchangeservice.service;
+package revolut.exchange.dbservice;
 
 import org.junit.Assert;
 import org.junit.Test;
-import revolut.exchangeservice.entities.Balance;
-import revolut.exchangeservice.entities.User;
+import revolut.exchange.entities.Balance;
+import revolut.exchange.entities.User;
 
 import java.math.BigDecimal;
 import java.sql.SQLException;
 
 public class DBServiceTest {
 
-    private DBService dbService = new DBService();
+    private DBService dbService = DBService.getInstance();
 
     @Test
     public void CRUDUserTest() throws SQLException {

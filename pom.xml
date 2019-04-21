@@ -35,6 +35,12 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20180813</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -46,7 +52,7 @@
                     <appendAssemblyId>false</appendAssemblyId>
                     <archive>
                         <manifest>
-                            <mainClass>revolut.exchangeservice.ExchangeServer</mainClass>
+                            <mainClass>revolut.exchange.ExchangeServer</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

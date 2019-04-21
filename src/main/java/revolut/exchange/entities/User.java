@@ -1,4 +1,4 @@
-package revolut.exchangeservice.entities;
+package revolut.exchange.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

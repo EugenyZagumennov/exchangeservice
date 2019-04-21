@@ -1,6 +1,6 @@
-package revolut.exchangeservice.mapper;
+package revolut.exchange.mapper;
 
-import revolut.exchangeservice.entities.User;
+import revolut.exchange.entities.User;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -8,7 +8,7 @@ import java.sql.SQLException;
 public class UserMapper {
     public static User map(ResultSet rs) throws SQLException {
         User user = null;
-        if(rs.next()) {
+        if(rs != null && rs.next()) {
             Long id = rs.getLong("id");
             String name = rs.getString("name");
             user = new User(id, name);
