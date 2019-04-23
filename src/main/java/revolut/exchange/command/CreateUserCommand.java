@@ -4,6 +4,11 @@ import lombok.AllArgsConstructor;
 import lombok.ToString;
 import revolut.exchange.dbservice.DBService;
 
+/**
+ * Create user command
+ *
+ * @author Evgenii Zagumennov
+ */
 @AllArgsConstructor
 @ToString
 public class CreateUserCommand implements Command {

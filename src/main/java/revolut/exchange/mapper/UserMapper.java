@@ -5,6 +5,11 @@ import revolut.exchange.entities.User;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+/**
+ * Mapper for User entity
+ *
+ * @author Evgenii Zagumennov
+ */
 public class UserMapper {
     public static User map(ResultSet rs) throws SQLException {
         User user = null;

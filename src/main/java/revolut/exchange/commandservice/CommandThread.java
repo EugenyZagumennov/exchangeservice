@@ -2,6 +2,11 @@ package revolut.exchange.commandservice;
 
 import revolut.exchange.command.Command;
 
+/**
+ * Thread for processing of modifying requests fom queue.
+ *
+ * @author Evgenii Zagumennov
+ */
 public class CommandThread extends Thread {
 
     private CommandQueue exchangeQueue;

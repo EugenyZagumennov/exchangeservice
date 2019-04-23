@@ -5,6 +5,11 @@ import lombok.Data;
 
 import java.math.BigDecimal;
 
+/**
+ * Balance entity
+ *
+ * @author Evgenii Zagumennov
+ */
 @Data
 @AllArgsConstructor
 public class Balance {

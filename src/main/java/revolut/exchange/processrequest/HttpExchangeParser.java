@@ -17,6 +17,13 @@ import java.math.BigDecimal;
 
 
 public class HttpExchangeParser {
+
+    /**
+     * Parse modifying http resuest (all except GET)
+     *
+     * @param httpExchange
+     * @throws Exception
+     */
     public static Command parse(HttpExchange httpExchange) throws Exception {
         String url = httpExchange.getRequestURI().toASCIIString();
 
@@ -60,6 +67,12 @@ public class HttpExchangeParser {
         }
     }
 
+    /**
+     * Parse nonmodifying http resuest (GET)
+     *
+     * @param httpExchange
+     * @throws Exception
+     */
     public static String parseGet(HttpExchange httpExchange) throws Exception {
         String url = httpExchange.getRequestURI().toASCIIString();
 

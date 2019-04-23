@@ -6,6 +6,11 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Vector;
 
+/**
+ * Singleton class. Creates db schema, pool of connections
+ *
+ * @author Evgenii Zagumennov
+ */
 public enum H2Server {
     INSTANCE;
 

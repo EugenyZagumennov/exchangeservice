@@ -7,6 +7,11 @@ import revolut.exchange.entities.Balance;
 
 import java.math.BigDecimal;
 
+/**
+ * Exchange command
+ *
+ * @author Evgenii Zagumennov
+ */
 @AllArgsConstructor
 @ToString
 public class ExchangeCommand implements Command {

@@ -11,6 +11,11 @@ import java.net.HttpURLConnection;
 import java.net.InetSocketAddress;
 import java.nio.charset.StandardCharsets;
 
+/**
+ * Main class. Runs service and handles http requests
+ *
+ * @author Evgenii Zagumennov
+ */
 public class ExchangeServer implements HttpHandler {
     private static final int PORT = 80;
     private static final CommandThread COMMAND_THREAD = new CommandThread();

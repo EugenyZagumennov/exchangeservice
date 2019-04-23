@@ -11,6 +11,11 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+/**
+ * Singleton class. Service for working with database
+ *
+ * @author Evgenii Zagumennov
+ */
 public enum DBService {
     INSTANCE;
 

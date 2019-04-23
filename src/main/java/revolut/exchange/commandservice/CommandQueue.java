@@ -4,6 +4,11 @@ import revolut.exchange.command.Command;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 
+/**
+ * Singleton class. Queue for containing and ordering modifying requests
+ *
+ * @author Evgenii Zagumennov
+ */
 public enum CommandQueue {
     INSTANCE;
 

@@ -6,6 +6,11 @@ import revolut.exchange.dbservice.DBService;
 
 import java.math.BigDecimal;
 
+/**
+ * Update balance command
+ *
+ * @author Evgenii Zagumennov
+ */
 @AllArgsConstructor
 @ToString
 public class UpdateBalanceCommand implements Command {
